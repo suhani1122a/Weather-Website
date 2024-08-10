@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    height: 94vh;
+    background-image: url("E:/Weather Website/images/weather.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.heading {
+    color: white;
+}
+
+.p {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+.container {
+
+    padding: 3px;
+    margin-top: 40px;
+    border-radius: 20px;
+    text-align: center;
+    height: 53vh;
+    width: 98vw;
+}
+
+.search {
+    margin-bottom: 10
+}
+
+#cityInput {
+    padding: 10px;
+    border: 1px solid #29baee;
+    background-color: #d4d2e6;
+    border-radius: 15px;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+
+.city {
+    font-size: 20px;
+    color: #201613;
+
+}
+
+.city2 {
+    font-size: 25px;
+    font-weight: 50px;
+    color: #0c0112;
+
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #366b81;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #59c1aa;
+}
+
+.weather-info {
+    margin-left: 450px;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    height: 22vh;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    width: 40vw;
+    background-color: rgb(190, 224, 230);
+    display: none;
+    color: black;
+    font-weight: 850;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}

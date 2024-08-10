@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+      <div class="container d-flex flex-row justify-content-center">
+         <h1 class="heading"><U>Weather App</h1></U>
+            <div class="search">
+                <input type="text" id="cityInput" placeholder="Enter city name" class="city">
+                <button onclick="getWeather()">Get Weather</button>
+                <p class="p"><b>Note :</b> Please Fill the correct spelling of city name.</p>    
+            </div>
+            <div class="weather-info">
+                <u><h2 id="cityName" class="city2"></h2></u> 
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <p id="humidity"></p>
+            </div>
+      </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
